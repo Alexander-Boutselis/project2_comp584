@@ -79,6 +79,7 @@ a {
   padding: 0.5rem 1rem;
   margin: 0.5rem 0;
   flex: 0 0 92%;
+  margin-left: 4%; 
   text-align: center;
 }
 
@@ -112,9 +113,10 @@ a {
   .row-5 .item-b { order: 1; }
   .row-5 .item-c { order: 3; }
 
-  /* Row 6: 2 mini cards per row */
+  /* Row 6: 2 mini cards per row on tablet */
   .row-6 .mini-card {
     flex: 0 0 44%;
+    margin-left: 4%;   
   }
 }
 
@@ -146,8 +148,8 @@ a {
   }
 
   .row-6 .mini-card {
-    flex: 0 0 16%;             /* wider cards */
-    margin-left: 3%;             /* smaller gaps between cards */
+    flex: 0 0 16%;             
+    margin-left: 3%;             
   }
 
   /* first card: align with the 4% left gutter used by other rows */
