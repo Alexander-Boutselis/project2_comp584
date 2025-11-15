@@ -142,7 +142,6 @@ a {
   .row-5 .item-c { flex: 0 0 20%; order: 3; }
 
   /* Row 6: five mini cards across */
-@media (min-width: 768px) {
   .row-6 {
     justify-content: flex-start;  /* no extra space-between stretch */
   }
@@ -154,7 +153,6 @@ a {
 
   /* first card: align with the 4% left gutter used by other rows */
   .row-6 .mini-card:first-child {
-    margin-left: 4%;
     margin-left: 4%;
   }
 }
